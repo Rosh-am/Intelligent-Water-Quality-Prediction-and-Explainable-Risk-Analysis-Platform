@@ -1,0 +1,15 @@
+Model,Dataset,MAE,RMSE,R2
+Random Forest,Baseline,3.0245,4.1346,0.9231
+Extra Trees,Baseline,3.0872,4.1626,0.9221
+Gradient Boosting,Baseline,3.0791,4.1093,0.924
+XGBoost,Baseline,2.9187,4.0063,0.9278
+CatBoost,Baseline,2.9632,3.9849,0.9286
+Random Forest,Imputed,3.087,4.2095,0.9204
+Extra Trees,Imputed,3.1329,4.1942,0.921
+Gradient Boosting,Imputed,3.1068,4.1384,0.9231
+XGBoost,Imputed,2.9579,4.0368,0.9268
+CatBoost,Imputed,2.9799,4.0024,0.928
+DNN,Baseline,3.308817,4.459447,0.910541
+DNN,Imputed,3.472902,4.531214,0.907751
+TabNet,Baseline,4.855071,6.338273,0.819281
+TabNet,Imputed,4.639898,6.057183,0.835156
